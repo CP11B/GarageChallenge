@@ -14,9 +14,18 @@ public class Garage {
 	public void printGarage() { 
 		for (int i = 0; i < garage.size(); i++) {
 			Vehicle current = garage.get(i);
-			current.print();
+			if (current instanceof Lorry) {
+				System.out.println("Lorry: ");
+				current.print();		
+			} else if (current instanceof Car){
+				System.out.println("Car: ");
+				current.print();
+			} else if (current instanceof Motorbike){
+				System.out.println("Motorbike: ");
+				current.print();
+			}
 		}
-	}	
+	}
 }
 	// method to bill (if (vehicle is instance of Car))
 

@@ -41,7 +41,7 @@ public class Vehicle {
     }
 	
     public void print() {
-		String format = this.id + " was made in " + this.age + " and is " + this.colour;
+		String format = "ID: " + this.id + ", Year: " + this.age + ", Colour: " + this.colour;
 		System.out.println(format);
 	}   	
 }

@@ -18,8 +18,8 @@ public class Runner {
     	
     	garage.printGarage();
     	
-    	//Manager.billVehichle();
-    	//Manager.removeVehicle();
+    	//garage.billVehichle();
+    	//garage.removeVehicle();
     	
 	}		
 }
@@ -28,6 +28,7 @@ public class Runner {
 //Each derived class should have its own attributes in addition to the normal Vehicle attributes.
 //Using a List<> implementation, store all your Vehicles in a Garage class.
 //Create a method in Garage that iterates through each Vehicle, 
+
 //calculating a bill for each type of Vehicle in a different way, 
 //depending on the type of Vehicle it is (this does not need to be complex).
 //Garage should have methods that add a Vehicle, remove a Vehicle by its ID or its type, 
